@@ -4,6 +4,9 @@ namespace FunctionChallenges
 {
     class Program
     {
+        static string StreingNumberProcessor(){
+            return 
+        }
         static void Main(string[] args)
         {
             // Challenge 1: String and Number Processor
@@ -16,8 +19,8 @@ namespace FunctionChallenges
             int num 3 = 10, num4 = 30;
             string str1 = "HelloWorld", str2 = "Programming";
             string str3 = "Hi", str4 = "Programming";
-                          
-            SwapObjects(ref num1, ref num2); // Expected outcome: num1 = 30, num2 = 25  
+
+            SwapObjects(ref num1, ref num2); // Expected outcome: num1 = 30, num2 = 25
             SwapObjects(ref num3, ref num4); // Error: Value must be more than 18
 
             SwapObjects(str1, str2); // Expected outcome: str1 = "Programming", str2 = "HelloWorld"
